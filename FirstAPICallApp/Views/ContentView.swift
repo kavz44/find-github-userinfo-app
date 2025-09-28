@@ -36,7 +36,7 @@ struct ContentView: View {
             
             VStack(spacing: 1) {
                 Text("Location: \(user?.location ?? "SECRET")")
-                Text("GitHUb account made: \(user?.createdAt ?? "UNKNOWN DATE")")
+                Text("GitHub account made: \(user?.createdAt ?? "UNKNOWN DATE")")
             }
             
             TextField("GitHub-username", text: $searchThisUser)
@@ -98,10 +98,7 @@ struct ContentView: View {
         }
     }
         
-        
-        
-        
-    }
+}
 
 
 struct ContentView_Previews: PreviewProvider {
